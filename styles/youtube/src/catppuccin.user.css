@@ -1,32 +1,17 @@
 /* ==UserStyle==
-@name YouTube Catppuccin-Latte
-@namespace github.com/catppuccin/YouTube
-@homepageURL https://github.com/catppuccin/YouTube
-@version 2.0.3
-@updateURL https://github.com/catppuccin/YouTube/raw/main/src/YouTubeCatppuccinLatte.user.css
+@name YouTube Catppuccin
+@namespace github.com/catppuccin/userstyles/styles/youtube
+@homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/youtube
+@version 2.0.6
+@updateURL https://github.com/catppuccin/userstyles/raw/main/styles/youtube/catppuccin.user.css
 @description Soothing pastel theme for YouTube
 @author isabelroses
 @license GNU-V3.0
 
 @preprocessor stylus
 
-@var select stylus-ctp-style "Preset themes" [
-	"Catppuccin-Latte-Green",
-	"Catppuccin-Latte-Flamingo",
-	"Catppuccin-Latte-Mauve",
-	"Catppuccin-Latte-Pink",
-	"Catppuccin-Latte-Lavender",
-	"Catppuccin-Latte-Red",
-	"Catppuccin-Latte-Peach",
-	"Catppuccin-Latte-Yellow",
-	"Catppuccin-Latte-Teal",
-	"Catppuccin-Latte-Blue",
-	"Catppuccin-Latte-Sky",
-    "Catppuccin-Latte-Maroon",
-    "Catppuccin-Latte-Sapphire",
-    "Catppuccin-Latte-Rosewater",
-	"Custom"
-]
+@var select theme "Theme" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*", "custom:Custom"]
+@var select accent "Accent" ["'rosewater'", "'flamingo'", "'pink'", "'mauve'", "'red'", "'maroon'", "'peach'", "'yellow'", "'green'", "'teal'", "'blue'*", "'sapphire'", "'sky'", "'lavender'"]
 
 @var checkbox join-color "Use dark join button" 0
 @var checkbox subscribe-color "Use dark subscribe button" 0
@@ -34,175 +19,31 @@
 @var text scrollbar_width "Scrollbar width" 6px
 @var color scrollbar_track "Scrollbar background" "rgba(0,0,0, 0)"
 
-@var color mainColor "Custom main color" "#1E66F5"
-@var color mainBackground "Custom main background" "#EFF1F5"
-@var color secondBackground "Custom second background" "#E6E9EF"
-@var color playerBackground "Custom player background" "#DCE0E8"
-@var color hoverBackground "Custom hover background" "#CCD0DA"
-@var color mainText "Custom main text" "#4C4F69"
-@var color dimmerText "Custom second text" "#7C7F93"
+@var color mainColor "Custom main color" "#89B4FA"
+@var color mainBackground "Custom main background" "#1E1E2E"
+@var color secondBackground "Custom second background" "#181825"
+@var color playerBackground "Custom player background" "#11111B"
+@var color hoverBackground "Custom hover background" "#313244"
+@var color mainText "Custom main text" "#CDD6F4"
+@var color dimmerText "Custom second text" "#9399B2"
 @var color colorShadow "Custom shadow color" "rgba(56, 60, 74, .3)"
 
 ==/UserStyle== */
 @-moz-document regexp('https?:\\/\\/(?!gaming\\.)(?!consent\\.)(?!vr\\.)(?!music\\.)(?!tv\\.)(?!artists\\.)(?!studio\\.).*youtube(?!kids\\.).*\\.com\\/(?!premium|howyoutubeworks).*$') {
-
+    /* Catppuccin Palette */
+    @import url("https://unpkg.com/@catppuccin/palette@0.1.6/css/catppuccin.css");
+    :root {
+        --ctp-text: var(--ctp- + theme + "-text");
+        --ctp-overlay2: var(--ctp- + theme + "-overlay2");
+        --ctp-surface0: var(--ctp- + theme + "-surface0");
+        --ctp-base: var(--ctp- + theme + "-base");
+        --ctp-mantle: var(--ctp- + theme + "-mantle");
+        --ctp-crust: var(--ctp- + theme + "-crust");
+        --accent: var(--ctp- + theme + "-" + accent);
+    }
     /*Main color variables*/
     :root {
-        if stylus-ctp-style=="Catppuccin-Latte-Green" {
-            --main-color: #40A02B;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Lavender" {
-            --main-color: #7287FD;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Flamingo" {
-            --main-color: #DD7878;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Mauve" {
-            --main-color: #8839EF;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Pink" {
-            --main-color: #EA76CB;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Red" {
-            --main-color: #D20F39;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Peach" {
-            --main-color: #FE640B;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Yellow" {
-            --main-color: #DF8E1D;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Teal" {
-            --main-color: #179299;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Blue" {
-            --main-color: #1E66F5;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Sky" {
-            --main-color: #04A5E5;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Maroon" {
-            --main-color: #E64553;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Sapphire" {
-            --main-color: #209FB5;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Catppuccin-Latte-Rosewater" {
-            --main-color: #DC8A78;
-            --main-background: #EFF1F5;
-            --second-background: #E6E9EF;
-            --player-background: #DCE0E8;
-            --hover-background: #CCD0DA;
-            --main-text: #4C4F69;
-            --dimmer-text: #7C7F93;
-            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
-        }
-
-        else if stylus-ctp-style=="Custom" {
+        if theme=="custom" {
             --main-color: mainColor;
             --main-background: mainBackground;
             --second-background: secondBackground;
@@ -211,6 +52,16 @@
             --main-text: mainText;
             --dimmer-text: dimmerText;
             --shadow: 0 1px 0.5px colorShadow;
+        }
+        else {
+            --main-color: var(--accent);
+            --main-background: var(--ctp-base);
+            --second-background: var(--ctp-mantle);
+            --player-background: var(--ctp-crust);
+            --hover-background: var(--ctp-surface0);
+            --main-text: var(--ctp-text);
+            --dimmer-text: var(--ctp-overlay2);
+            --shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
         }
     }
 
@@ -553,11 +404,11 @@
     yt-chip-cloud-chip-renderer:not([selected]) {
         background-color: var(--second-background) !important;
     }
-    
+
     yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
         border: 1px solid var(--yt-spec-10-percent-layer);
     }
-    
+
     yt-chip-cloud-chip-renderer[selected],
     yt-chip-cloud-chip-renderer:hover {
         background-color: var(--hover-background) !important;
@@ -1914,10 +1765,11 @@
         fill: var(--main-color) !important;
     }
 
+    #logo-icon-container.ytd-topbar-logo-renderer svg g path[fill*="white"],
     ytd-topbar-logo-renderer.style-scope a svg > g > g:nth-child(1) > path:nth-child(2),
     /*cookie version*/
     g.ytd-consent-bump-v2-lightbox:nth-child(2) > g:nth-child(1) > * {
-        fill: var(--main-text) !important;
+        fill: var(--second-background) !important;
     }
 
     ytd-topbar-logo-renderer.style-scope a svg > g > g:nth-child(2) > g,
@@ -3634,7 +3486,7 @@
     yt-subscription-product-header-renderer.ytd-item-section-renderer {
         color: var(--main-text) !important;
     }
-    
+
     #contents .ytd-item-section-renderer,
     #contents #main-content {
         background-color: var(--main-backgorund) !important;
@@ -4290,6 +4142,10 @@
         border-color: var(--hover-background) !important;
     }
 
+    .yt-spec-button-shape-next[aria-label="Donate"] .yt-spec-button-shape-next--button-text-content .yt-core-attributed-string {
+        color: var(--main-background) !important;
+    }
+
     /*clip share*/
     .ytd-clip-section-renderer {
         background-color: var(--main-background) !important;
@@ -4303,7 +4159,7 @@
     .yt-spec-button-shape-next[aria-label="Share clip"] {
         background-color: var(--main-color) !important;
     }
-    
+
     .yt-spec-button-shape-next[aria-label="Share clip"]:hover {
         background-color: var(--main-color) !important;
     }
