@@ -5,24 +5,7 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
-<p align="center">
-    <a href="https://github.com/catppuccin/libreddit/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/libreddit?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/libreddit/issues"><img src="https://img.shields.io/github/issues/catppuccin/libreddit?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/libreddit/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/libreddit?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-    <a href="https://raw.githubusercontent.com/catppuccin/libreddit/main/catppuccin.user.css"><img src="https://img.shields.io/badge/stylus-install-cba6f7?colorA=363a4f&style=for-the-badge"></a>
-</p>
-
-
 ![Libreddit Theme Preview](assets/screenshot.png)
-
-
-## Usage
-
-#### Stylus
-1. Install Stylus [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)/[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension.
-2. Enable CSP Patching from Stylus Settings > Advanced.
-3. [Click here to install.](https://github.com/catppuccin/libreddit/raw/main/catppuccin.user.css)
-4. Enjoy!
 
 ## 💝 Thanks to
 

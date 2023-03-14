@@ -6,13 +6,6 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/brave-search/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/brave-search?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/brave-search/issues"><img src="https://img.shields.io/github/issues/catppuccin/brave-search?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/brave-search/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/brave-search?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/brave-search/raw/main/catppuccin.user.css"><img src="https://img.shields.io/badge/stylus-install-cba6f7?colorA=363a4f&style=for-the-badge"></a>
-</p>
-
-<p align="center">
 	<img src="assets/preview.webp"/>
 </p>
 
@@ -34,12 +27,6 @@
 <summary>🌿 Mocha</summary>
 <img src="assets/mocha.webp"/>
 </details>
-
-## Usage
-
-1. Install Stylus [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)/[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension.
-2. [Click here to install.](https://github.com/catppuccin/brave-search/raw/main/catppuccin.user.css)
-3. Set theme to dark or light in Brave Search settings, the automatic setting will not work.
 
 ## 💝 Thanks to
 

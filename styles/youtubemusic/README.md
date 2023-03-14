@@ -6,12 +6,6 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/youtubemusic/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/youtubemusic?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/youtubemusic/issues"><img src="https://img.shields.io/github/issues/catppuccin/youtubemusic?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/youtubemusic/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/youtubemusic?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
-
-<p align="center">
   <img src="assets/res.webp"/>
 </p>
 
@@ -64,13 +58,6 @@ html:not(.style-scope) {
     --ctp-accent: #f5e0dc !important;
 }
 ```
-
-### [Stylus](https://github.com/openstyles/stylus)
-
-1. Install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
-2. Then install with Stylus (click on the link):
-  - [🎧 Catppuccin for Youtube Music](https://github.com/catppuccin/youtubemusic/raw/main/src/youtubemusic.user.css)
-3. Choose your flavor and accent color in the Configure window in Stylus Options
 
 ### Overriding Colors
 

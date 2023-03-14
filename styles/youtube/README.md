@@ -4,57 +4,55 @@
 	Catppuccin for <a href="https://www.youtube.com">YouTube</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
-<p align="center">
-    <a href="https://github.com/catppuccin/YouTube/stargazers"><img alt="Stargazers" src="https://img.shields.io/github/stars/catppuccin/YouTube?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/YouTube/issues"><img src="https://img.shields.io/github/issues/catppuccin/YouTube?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/YouTube/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/YouTube?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
-
 
 <p align="center">
-  <img src="assets/cat-youtube.webp"/>
+  <img src="assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-  <img src="assets/youtube-latte.webp"/>
+  <img src="assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-  <img src="assets/youtube-frappe.webp"/>
+  <img src="assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-  <img src="assets/youtube-macchiato.webp"/>
+  <img src="assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-  <img src="assets/youtube-mocha.webp"/>
+  <img src="assets/mocha.webp"/>
 </details>
 
+## 🙋 FAQ
 
-## Usage
+-	Q: **_"The colors look wrong?"_**\
+	A:  <details>
+            <summary>
+                5. Make sure your base youtube theme is set to light mode
+            </summary>
+            ![Help image](assets/set-to-lightmode.webp)
+        </details>
+-   Q: **_"This thing is broken!!!"_**\
+    A: <details>
+            <summary>
+                6. Remember to update occationally
+            </summary>
+            ![Help image](assets/update-image.webp)
+            You may have to press the button twice to do the update
+        </details>
 
-1. Install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
-2. Then install with Stylus (click on the link):
-  - [🌻 Catppuccin Latte](https://github.com/catppuccin/YouTube/raw/main/src/YouTubeCatppuccinLatte.user.css)
-  - [🪴 Catppuccin Frappe](https://github.com/catppuccin/YouTube/raw/main/src/YouTubeCatppuccinFrappe.user.css)
-  - [🌺 Catppuccin Macchiato](https://github.com/catppuccin/YouTube/raw/main/src/YouTubeCatppuccinMacchiato.user.css)
-  - [🌿 Catppuccin Mocha](https://github.com/catppuccin/YouTube/raw/main/src/YouTubeCatppuccinMocha.user.css)
-3. Choose Your accent color by Setting Theme in Stylus Options
-<details>
-<summary>
-4. Make sure your base youtube theme is set to light mode
-</summary>
-
-![Help image](./assets/set-to-lightmode.png)
-</details>
 
 ## 💝 Thanks to
 
-- [RaitaroH](https://github.com/RaitaroH/YouTube-DeepDark) - this theme is made by modification of great YouTube-DeepDark theme by RaitaroH
+- [Isabel](https://github.com/isabelroses) - v2.0.0 youtube theme
+- [rubyowo](https://github.com/rubyowo)
+- [Elkrien](https://github.com/elkrien) - v1.0.0 youtube theme
+- [Artilate](https://github.com/artilate/youtube) - this theme is made by modification of great YouTube rose pine theme
 
 &nbsp;
 

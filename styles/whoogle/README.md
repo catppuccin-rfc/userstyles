@@ -5,13 +5,7 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
-<p align="center">
-    <a href="https://github.com/catppuccin/whoogle/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/whoogle?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/whoogle/issues"><img src="https://img.shields.io/github/issues/catppuccin/whoogle?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/whoogle/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/whoogle?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
-
-![Whoogle Theme Preview](assets/preview.png)
+![Whoogle Theme Preview](assets/preview.webp)
 
 ## Usage
 
