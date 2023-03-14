@@ -6,13 +6,7 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/wikiwand/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/wikiwand?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/wikiwand/issues"><img src="https://img.shields.io/github/issues/catppuccin/wikiwand?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/wikiwand/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/wikiwand?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
-
-<p align="center">
-	<img src="/assets/all.webp"/>
+	<img src="assets/all.webp"/>
 </p>
 
 ## Previews
@@ -27,18 +21,12 @@
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="/assets/macchiato.webp"/>
+<img src="assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
 <img src="assets/mocha.webp"/>
 </details>
-
-## Usage
-1. Install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
-2. Then install with Stylus (click on the link):
-  - [🌻 Catppuccin for WikiWand](https://github.com/catppuccin/wikiwand/raw/main/catppuccin.user.css)
-3. Choose you theme and accent color by Setting Theme in Stylus Options
 
 ## 💝 Thanks to
 

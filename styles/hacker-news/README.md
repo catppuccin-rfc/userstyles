@@ -6,12 +6,6 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/hacker-news/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/hacker-news?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/hacker-news/issues"><img src="https://img.shields.io/github/issues/catppuccin/hacker-news?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/hacker-news/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/hacker-news?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
-
-<p align="center">
 	<img src="assets/catwalk.webp"/>
 </p>
 
@@ -33,18 +27,6 @@
 <summary>🌿 Mocha</summary>
 <img src="assets/mocha.webp"/>
 </details>
-
-## Usage
-
-#### Stylus
-1. Install Stylus [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)/[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension.
-2. Enable CSP Patching from Stylus Settings > Advanced.
-3. [Click here to install.](https://github.com/catppuccin/hacker-news/raw/main/catppuccin.user.css)
-
-#### Stylish
-1. Install Stylish [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/)/[Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe) extension.
-2. Create a new custom Style that applies to `news.ycombinator.com`.
-3. Copy content of [catppuccin.user.css](catppuccin.user.css) and paste to created Style.
 
 ## 💝 Thanks to
 

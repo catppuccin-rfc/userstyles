@@ -6,12 +6,6 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/reddit/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/reddit?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/reddit/issues"><img src="https://img.shields.io/github/issues/catppuccin/reddit?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/reddit/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/reddit?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
-
-<p align="center">
 	<img src="assets/preview.webp" />
 </p>
 
@@ -33,16 +27,6 @@
 <summary>🌿 Mocha</summary>
 <img src="assets/catppuccin-mocha.webp" />
 </details>
-
-## Usage
-
-#### Stylus
-1. Install the Stylus [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)/[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension.
-2. Enable CSP Patching from Stylus Settings > Advanced.
-3. Click on your Reddit profile in the top right and enable Dark Mode in the menu. The theme should mostly work either way but there are likely going to be some small things that don't.
-4. Download the theme from [here](https://raw.githubusercontent.com/catppuccin/reddit/main/css/reddit-catppuccin.user.css).
-5. Set the accent color and flavor from Stylus userstyle settings according to your preferences.
-6. Install the theme.
 
 ## 💝 Thanks to
 
